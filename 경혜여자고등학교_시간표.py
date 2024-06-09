@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import datetime
 
+st.set_page_config(layout="wide")
 # 시간표 데이터 생성 (7교시까지 포함)
 timetables = {
     '1학년': {
